@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		A45F48921E64BE6B007A2343 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45F48911E64BE6B007A2343 /* AppDelegate.swift */; };
-		A45F48941E64BE6B007A2343 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45F48931E64BE6B007A2343 /* ViewController.swift */; };
+		A45F48941E64BE6B007A2343 /* CalcController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45F48931E64BE6B007A2343 /* CalcController.swift */; };
 		A45F48971E64BE6B007A2343 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A45F48951E64BE6B007A2343 /* Main.storyboard */; };
 		A45F48991E64BE6B007A2343 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A45F48981E64BE6B007A2343 /* Assets.xcassets */; };
 		A45F489C1E64BE6B007A2343 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A45F489A1E64BE6B007A2343 /* LaunchScreen.storyboard */; };
+		A45F48A41E64DC4F007A2343 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A45F48A31E64DC4F007A2343 /* Minecraft.ttf */; };
+		A45F48A61E651B88007A2343 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = A45F48A51E651B88007A2343 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A45F488E1E64BE6B007A2343 /* RetroCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetroCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A45F48911E64BE6B007A2343 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A45F48931E64BE6B007A2343 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A45F48931E64BE6B007A2343 /* CalcController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcController.swift; sourceTree = "<group>"; };
 		A45F48961E64BE6B007A2343 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A45F48981E64BE6B007A2343 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A45F489B1E64BE6B007A2343 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A45F489D1E64BE6B007A2343 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A45F48A31E64DC4F007A2343 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		A45F48A51E651B88007A2343 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +58,10 @@
 		A45F48901E64BE6B007A2343 /* RetroCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				A45F48A51E651B88007A2343 /* btn.wav */,
+				A45F48A31E64DC4F007A2343 /* Minecraft.ttf */,
 				A45F48911E64BE6B007A2343 /* AppDelegate.swift */,
-				A45F48931E64BE6B007A2343 /* ViewController.swift */,
+				A45F48931E64BE6B007A2343 /* CalcController.swift */,
 				A45F48951E64BE6B007A2343 /* Main.storyboard */,
 				A45F48981E64BE6B007A2343 /* Assets.xcassets */,
 				A45F489A1E64BE6B007A2343 /* LaunchScreen.storyboard */,
@@ -124,8 +130,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A45F48A61E651B88007A2343 /* btn.wav in Resources */,
 				A45F489C1E64BE6B007A2343 /* LaunchScreen.storyboard in Resources */,
 				A45F48991E64BE6B007A2343 /* Assets.xcassets in Resources */,
+				A45F48A41E64DC4F007A2343 /* Minecraft.ttf in Resources */,
 				A45F48971E64BE6B007A2343 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A45F48941E64BE6B007A2343 /* ViewController.swift in Sources */,
+				A45F48941E64BE6B007A2343 /* CalcController.swift in Sources */,
 				A45F48921E64BE6B007A2343 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +310,7 @@
 				A45F48A21E64BE6B007A2343 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
